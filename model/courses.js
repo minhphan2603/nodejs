@@ -9,5 +9,5 @@ const CourseSchema = new mongoose.Schema({
     price: Number
 })
 
-const Courses = mongoose.model('courses',CourseSchema);
+const Courses = mongoose.model('courses',CourseSchema,);
 module.exports = Courses;
